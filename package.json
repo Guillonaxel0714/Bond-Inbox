@@ -1,0 +1,27 @@
+{
+  "name": "bond-inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guillonaxel0714/Bond-Inbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guillonaxel0714/Bond-Inbox/issues"
+  },
+  "homepage": "https://github.com/Guillonaxel0714/Bond-Inbox#readme"
+}
