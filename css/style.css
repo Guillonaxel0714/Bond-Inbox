@@ -19854,6 +19854,79 @@ h3 {
   margin: 0 20px;
 }
 
+#service {
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+h2 {
+  font-family: realist, sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+h3 {
+  color: #423d4b;
+  font-size: 1.3em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: calc(33.3333% - 50px);
+  background: #fff;
+  border: none;
+}
+
+.card-headers {
+  text-align: left;
+  color: black;
+}
+
+.card-body {
+  text-align: left;
+  font-size: 18px;
+}
+
+h3 {
+  text-align: left;
+  color: black;
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
 .glide {
   position: relative;
   width: 100%;
