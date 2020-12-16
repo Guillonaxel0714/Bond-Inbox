@@ -19922,6 +19922,30 @@ p {
     width: 80%;
   }
 }
+#company {
+  width: 100%;
+  text-align: center;
+}
+#company h2 {
+  font-family: realist, sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+}
+#company h3 {
+  text-align: center;
+  font-family: realist, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #357fee;
+}
+#company .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
 #beta {
   width: 100%;
   text-align: center;

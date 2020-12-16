@@ -1,0 +1,23 @@
+#company {
+    width: 100%;
+    text-align: center;
+    h2 {
+        font-family: $font-family-realist;
+        font-size: 55px;
+        font-weight: $font-weight-bold;
+    }
+    h3 {
+        text-align: center;
+        font-family: $font-family-realist;
+        font-size: 30px;
+        font-weight: $font-weight-bold;
+        color: rgba(53, 127, 238, 1);
+    }
+    .user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 560px;
+        margin: 0 auto;
+    }
+}
