@@ -1,0 +1,15 @@
+#beta {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    h2 {
+        font-family: $font-family-realist;
+        font-size: 55px;
+        font-weight: $font-weight-bold;
+    }
+    .input-beta {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+}

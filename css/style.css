@@ -19888,16 +19888,6 @@ h3 {
   border: none;
 }
 
-.card-headers {
-  text-align: left;
-  color: black;
-}
-
-.card-body {
-  text-align: left;
-  font-size: 18px;
-}
-
 h3 {
   text-align: left;
   color: black;
@@ -19927,6 +19917,23 @@ p {
     width: 80%;
   }
 }
+#beta {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#beta h2 {
+  font-family: realist, sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+}
+#beta .input-beta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .glide {
   position: relative;
   width: 100%;
