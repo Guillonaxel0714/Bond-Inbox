@@ -19870,6 +19870,11 @@ h2 {
   font-weight: 700;
 }
 
+.btn {
+  color: #fff;
+  background-color: #367FED;
+}
+
 h3 {
   color: #423d4b;
   font-size: 1.3em;
@@ -19921,15 +19926,18 @@ p {
   width: 100%;
   text-align: center;
   justify-content: center;
-  align-items: center;
 }
 #beta h2 {
   font-family: realist, sans-serif;
   font-size: 55px;
   font-weight: 700;
 }
+#beta .btn {
+  color: #fff;
+  background-color: #367FED;
+}
 #beta .input-beta {
-  display: flex;
+  margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
 }
