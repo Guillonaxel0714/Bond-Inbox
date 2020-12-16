@@ -19945,6 +19945,13 @@ p {
   max-width: 560px;
   margin: 0 auto;
 }
+#company .user q {
+  font-size: 20px;
+}
+#company .user p {
+  font-size: 14px;
+  color: #357fee;
+}
 
 #beta {
   width: 100%;
