@@ -7,11 +7,30 @@
         width: 100%;
         box-shadow: 0 5px 10px $gray-300;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
 
         .logo {
             width: 150px;
             height: 150px;
+            margin-left: 100px;
+        }
+
+        .menu {
+            width: 35%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-right: 100px;
+
+            a {
+                text-decoration: none;
+                color: $black;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .join {
+                color: $darkBlue;
+            }
         }
     }
 
@@ -22,6 +41,7 @@
         font-size: 45px;
         margin-top: 50px;
         padding: 0 250px;
+        color: $darkerBlue;
     }
 
     .collab {
@@ -29,5 +49,6 @@
         font-weight: 400;
         font-size: 20px;
         padding: 0;
+        color: $darkBlue;
     }
 }

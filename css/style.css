@@ -19810,11 +19810,27 @@ h3 {
   width: 100%;
   box-shadow: 0 5px 10px #dee2e6;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .header .navbar .logo {
   width: 150px;
   height: 150px;
+  margin-left: 100px;
+}
+.header .navbar .menu {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 100px;
+}
+.header .navbar .menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header .navbar .menu .join {
+  color: #0047BE;
 }
 .header .messaging, .header .collab {
   font-family: realist, sans-serif;
@@ -19823,11 +19839,13 @@ h3 {
   font-size: 45px;
   margin-top: 50px;
   padding: 0 250px;
+  color: #00129D;
 }
 .header .collab {
   font-weight: 400;
   font-size: 20px;
   padding: 0;
+  color: #0047BE;
 }
 
 .glide {
