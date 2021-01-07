@@ -29968,4 +29968,41 @@ h3 {
   cursor: -webkit-grabbing;
 }
 
+#org {
+  width: 100%;
+  height: 550px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+  background-color: #00129d;
+  color: #ffffff;
+}
+
+.trait {
+  width: 864px;
+  height: 0;
+  margin: 51.5px 49.5px 0 45.5px;
+  border: solid 2px #daeff3;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 90px;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+a {
+  font-weight: 800;
+}
+
+.texte {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
