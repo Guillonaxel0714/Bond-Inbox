@@ -1,8 +1,18 @@
 #org {
     width: 100%;
-    height: 470px;
-    background-color: #DAEFF3;
+    height: 550px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+    background-color: #00129d;
+    color: #ffffff;
     
+   
+}
+
+.trait {
+    width: 864px;
+    height: 0;
+    margin: 51.5px 49.5px 0 45.5px;
+    border: solid 2px #daeff3;
 }
 
 h1 {
@@ -14,7 +24,9 @@ h1 {
 article {
     display: flex;
     justify-content: space-around;
-    margin-top: 110px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 a {
@@ -25,3 +37,4 @@ a {
     width: 100%;
     
 }
+
