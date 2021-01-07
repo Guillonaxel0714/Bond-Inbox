@@ -19810,24 +19810,64 @@ h3 {
   width: 100%;
   box-shadow: 0 5px 10px #dee2e6;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .header .navbar .logo {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
+  margin-left: 100px;
+}
+.header .navbar .menu {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 100px;
+}
+.header .navbar .menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header .navbar .menu .join {
+  color: #0047BE;
 }
 .header .messaging, .header .collab {
   font-family: realist, sans-serif;
   text-align: center;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   margin-top: 50px;
   padding: 0 250px;
+  color: #00129D;
 }
 .header .collab {
   font-weight: 400;
   font-size: 20px;
   padding: 0;
+  color: #0047BE;
+}
+.header .header-footer {
+  background-color: #0047BE;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 17px;
+}
+.header .header-footer .enroll {
+  margin-left: 100px;
+}
+.header .header-footer .free-beta {
+  margin-right: 100px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #0940D3;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  cursor: pointer;
 }
 
 .glide {
