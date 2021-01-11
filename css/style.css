@@ -29864,6 +29864,7 @@ h3 {
   font-family: realist, sans-serif;
   font-size: 25px;
   font-weight: 300;
+  text-align: center;
 }
 #less-apps .logos {
   margin-top: 50px;
@@ -29992,6 +29993,39 @@ p {
   margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+footer {
+  width: 100%;
+  background-color: #232222;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+footer .first-footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 0 100px;
+}
+footer .first-footer-section div {
+  display: flex;
+  flex-direction: column;
+}
+footer .first-footer-section div p {
+  font-size: 15px;
+  color: #ffffff;
+}
+footer .second-footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 145px;
+  margin-top: 50px;
+}
+footer .second-footer-section .copyrights {
+  color: #8E9AE0;
 }
 
 .glide {
