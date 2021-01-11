@@ -29815,16 +29815,17 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
-  padding: 15% 0;
+  padding: 15% 5%;
 }
 .section_cards .card {
   width: 400px;
+  height: 500px;
   border-radius: 40px;
   border: none;
+  position: relative;
 }
 .section_cards .card .card-body {
-  padding-bottom: 75px;
-  border-radius: 40px;
+  width: 100%;
   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.062);
 }
 .section_cards .card h5 {
@@ -29834,6 +29835,20 @@ h3 {
 }
 .section_cards .card p {
   font-size: 15px;
+}
+.section_cards .card a {
+  background-color: #232222;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50px;
+  width: 50%;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
 }
 
 #less-apps {
@@ -30127,8 +30142,7 @@ p {
 }
 
 h1 {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
   padding-top: 90px;
 }
 
