@@ -1,0 +1,37 @@
+footer {
+    width: 100%;
+    background-color: #232222;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+
+    .first-footer-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+        padding: 0 100px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 15px;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .second-footer-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 145px;
+        margin-top: 50px;
+
+        .copyrights {
+            color: #8E9AE0;
+        }
+    }
+}
