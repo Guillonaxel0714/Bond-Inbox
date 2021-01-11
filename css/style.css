@@ -29979,6 +29979,39 @@ p {
   flex-wrap: wrap;
 }
 
+footer {
+  width: 100%;
+  background-color: #232222;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+footer .first-footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 0 100px;
+}
+footer .first-footer-section div {
+  display: flex;
+  flex-direction: column;
+}
+footer .first-footer-section div p {
+  font-size: 15px;
+  color: #ffffff;
+}
+footer .second-footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 145px;
+  margin-top: 50px;
+}
+footer .second-footer-section .copyrights {
+  color: #8E9AE0;
+}
+
 .glide {
   position: relative;
   width: 100%;
