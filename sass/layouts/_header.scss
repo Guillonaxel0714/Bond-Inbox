@@ -1,0 +1,79 @@
+@import '../bootstrap/bootstrap.scss';
+
+.header {
+    width: 100%;
+
+    .navbar {
+        width: 100%;
+        box-shadow: 0 5px 10px $gray-300;
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            width: 130px;
+            height: 130px;
+            margin-left: 100px;
+        }
+
+        .menu {
+            width: 35%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-right: 100px;
+
+            a {
+                text-decoration: none;
+                color: $black;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .join {
+                color: $darkBlue;
+            }
+        }
+    }
+
+    .messaging {
+        font-family: $font-family-realist;
+        text-align: center;
+        font-weight: $font-weight-bold;
+        font-size: 40px;
+        margin-top: 50px;
+        padding: 0 250px;
+        color: $darkerBlue;
+    }
+
+    .collab {
+        @extend .messaging;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 0;
+        color: $darkBlue;
+    }
+
+    .header-footer {
+        background-color: $darkBlue;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        color: $white;
+        padding: 17px;
+
+        .enroll {
+            margin-left: 100px;
+        }
+
+        .free-beta {
+            margin-right: 100px;
+            padding: 10px 20px;
+            background-color: $white;
+            color: #0940D3;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-self: center;
+            cursor: pointer;
+        }
+    }
+}

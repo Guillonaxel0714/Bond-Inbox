@@ -1,8 +1,7 @@
-const { src, dest, parallel, watch } = require('gulp');
+const { src, dest, watch, parallel } = require('gulp');
 const gulpSass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 
-// Browser
 function sync() {
     browserSync.init({
         server: {
@@ -12,17 +11,15 @@ function sync() {
     watch('*.html').on('change', browserSync.reload);
 }
 
-// Fonction sass qui compile
 function sass() {
-    return src('./sass/style.scss')
+    return src('sass/style.scss')
     .pipe(gulpSass())
-    .pipe(dest('./css/'))
+    .pipe(dest('css/'))
     .pipe(browserSync.stream())
 }
 
-// Watcher pour compiler
 function watcher(done) {
-    watch('./sass/style.scss', sass)
+    watch('sass/style.scss', sass)
     browserSync.reload();
     done();
 }

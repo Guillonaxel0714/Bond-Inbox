@@ -1,0 +1,23 @@
+#less-apps {
+    width: 100%;
+    text-align: center;
+    h2 {
+        font-family: $font-family-realist;
+        font-size: 55px;
+        font-weight: $font-weight-bold;
+    }
+    h3 {
+        font-family: $font-family-realist;
+        font-size: 25px;
+        font-weight: $font-weight-light;
+    }
+    .logos {
+        margin-top: 50px;
+    }
+    img {
+        width: 100px;
+        height: 80px;
+        object-fit: contain;
+        margin: 0 20px;
+    }
+}
