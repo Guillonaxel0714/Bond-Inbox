@@ -1,6 +1,12 @@
 @import 'bootstrap/bootstrap.scss';
+
 @import 'layouts/header';
 @import 'layouts/cards';
+@import 'layouts/lessapps';
+@import 'layouts/service.scss';
+@import 'layouts/company.scss';
+@import 'layouts/joinbeta.scss';
+
 @import 'components/glide.core.scss';
 @import 'components/glide.theme.scss';
 @import 'components/variables';
