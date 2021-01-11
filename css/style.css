@@ -29849,6 +29849,7 @@ h3 {
   font-family: realist, sans-serif;
   font-size: 25px;
   font-weight: 300;
+  text-align: center;
 }
 #less-apps .logos {
   margin-top: 50px;
@@ -30153,9 +30154,9 @@ footer .second-footer-section .copyrights {
 }
 
 .trait {
-  width: 864px;
+  width: 500px;
   height: 0;
-  margin: 51.5px 49.5px 0 45.5px;
+  margin: 0 20px;
   border: solid 2px #daeff3;
 }
 
@@ -30167,14 +30168,20 @@ h1 {
 
 article {
   display: flex;
-  justify-content: space-around;
-  margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
-a {
+article a {
   font-weight: 800;
+  font-size: 28px;
+}
+
+article p {
+  font-size: 16px;
 }
 
 .texte {
