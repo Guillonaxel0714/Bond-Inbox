@@ -29887,77 +29887,54 @@ h3 {
   padding: 0 5%;
 }
 
-#service {
+.service {
   width: 100%;
-  text-align: center;
+  background-color: #0011A8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
 }
-
-.container {
-  width: 90%;
-  margin: 50px auto;
+.service h2 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 100px;
 }
-
-h2 {
-  font-family: realist, sans-serif;
-  font-size: 55px;
-  font-weight: 700;
+.service .service-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
 }
-
-.btn {
-  color: #fff;
-  background-color: #367FED;
+.service .service-section .service-card {
+  background-color: #fff;
+  margin: 0 30px;
+  padding: 15px;
+  border-radius: 20px;
+  width: 300px;
 }
-
-h3 {
-  color: #423d4b;
-  font-size: 1.3em;
-}
-
-.row {
+.service .service-section .service-card div {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
+  margin-bottom: 20px;
+}
+.service .service-section .service-card div img {
+  width: 27px;
+  height: 27px;
+  align-self: flex-start;
+}
+.service .service-section .service-card div h3 {
+  color: #0011A8;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
-.card {
-  width: calc(33.3333% - 50px);
-  background: #fff;
-  border: none;
-}
-
-h3 {
-  text-align: left;
-  color: black;
-}
-
-p {
-  text-align: left;
-  font-size: 18px;
-}
-
-@media screen and (max-width: 1000px) {
-  .card {
-    width: 40%;
-  }
-}
-@media screen and (max-width: 620px) {
-  .container {
-    width: 100%;
-  }
-
-  .heading {
-    padding: 20px;
-    font-size: 20px;
-  }
-
-  .card {
-    width: 80%;
-  }
-}
 #company {
   width: 100%;
   text-align: center;
+  background-color: #0011A8;
+  padding: 100px 0;
 }
 #company h2 {
   font-family: realist, sans-serif;
