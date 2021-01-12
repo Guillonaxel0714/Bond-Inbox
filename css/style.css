@@ -29947,6 +29947,8 @@ p {
 #company {
   width: 100%;
   text-align: center;
+  background-color: #0011A8;
+  padding: 100px 0;
 }
 #company h2 {
   font-family: realist, sans-serif;
