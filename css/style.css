@@ -29849,6 +29849,7 @@ h3 {
   left: 50%;
   transform: translateX(-50%);
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 #less-apps {
@@ -29903,8 +29904,7 @@ h3 {
 }
 .service .service-section {
   display: flex;
-  justify-content: space-around;
-  margin: 30px;
+  flex-direction: row;
 }
 .service .service-section .service-card {
   background-color: #ffffff;

@@ -22,6 +22,7 @@
         justify-content: space-evenly;
         flex-flow: row wrap;
         padding: 15% 5%;
+        
     }
 
     .card{
@@ -30,10 +31,12 @@
         border-radius: 40px;
         border: none;
         position: relative;
+        
 
         .card-body{
            width: 100%;
            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.062);
+           
         }
         h5{
             font-weight: $font-weight-bold;
@@ -56,6 +59,7 @@
             left: 50%;
             transform: translateX(-50%);
             text-decoration: none;
+            margin-bottom: 30px;
         }
     }
 }
