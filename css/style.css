@@ -29854,6 +29854,7 @@ h3 {
 #less-apps {
   width: 100%;
   text-align: center;
+  padding: 100px 0 200px;
 }
 #less-apps h2 {
   font-family: realist, sans-serif;
@@ -29874,6 +29875,16 @@ h3 {
   height: 80px;
   object-fit: contain;
   margin: 0 20px;
+}
+
+.grand_text {
+  font-size: 200px;
+  color: #A9C8F4;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 80%;
+  padding: 0 5%;
 }
 
 #service {
