@@ -7,13 +7,14 @@
         font-family: $font-family-realist;
         font-size: $font_big_title;
         font-weight: $font-weight-bold;
+        color: $font_white;
     }
     h3 {
         text-align: center;
         font-family: $font-family-realist;
         font-size: $font_subtiles_h3;
         font-weight: $font-weight-bold;
-        color: rgba(53, 127, 238, 1);
+        color: #A2C1F1;
     }
     .userCitation {
         display: flex;
@@ -23,16 +24,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        max-width: 560px;
+        max-width: 450px;
+        
         margin: 0 auto;
         q {
             font-size: $font_little_paragraphe;
-
+            color: $font_white;
         }
         p {
             font-size: $font_vsmall_paragraphe;
 
             color: rgba(53, 127, 238, 1);
         }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .userCitation {
+        display: flex;
+        flex-direction: column;
     }
 }
