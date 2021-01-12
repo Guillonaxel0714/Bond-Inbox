@@ -29960,24 +29960,22 @@ p {
   color: #357fee;
 }
 
-#beta {
+.beta {
   width: 100%;
   text-align: center;
   justify-content: center;
 }
-#beta h2 {
-  font-family: realist, sans-serif;
-  font-size: 55px;
-  font-weight: 700;
+.beta .enroll {
+  font-size: 220px;
+  color: #A9C8F4;
+  text-align: center;
 }
-#beta .btn {
-  color: #fff;
-  background-color: #367FED;
+.beta .treat {
+  font-size: 43px;
+  color: #232222;
 }
-#beta .input-beta {
-  margin: 0 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
+.beta .treat span {
+  color: #0047BE;
 }
 
 footer {
@@ -30008,6 +30006,7 @@ footer .second-footer-section {
   justify-content: space-between;
   padding: 0 145px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 footer .second-footer-section .copyrights {
   color: #8E9AE0;
