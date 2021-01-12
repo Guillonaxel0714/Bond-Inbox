@@ -1,32 +1,29 @@
 #org {
     width: 100%;
-    height: 550px;
+    height: auto;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 150px 0;
     background-color: #00129d;
     color: #ffffff;
-    
-   
 }
 
 .trait {
-    width: 500px;
+    width: 100px;
     height: 0;
-    margin: 0 20px;
+    margin: 0 auto;
     border: solid 2px #daeff3;
 }
 
 h1 {
     text-align: center;
-    padding-top: 90px;
 }
 
 article {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
     align-items: center;
     margin-top: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 article a {
@@ -36,10 +33,12 @@ article a {
 
 article p{
     font-size: 16px;
+    text-align: center;
 }
 
 .texte {
-    width: 100%;
-    
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
 }
 
