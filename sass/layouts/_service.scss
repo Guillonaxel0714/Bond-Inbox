@@ -1,15 +1,15 @@
 .service {
   width: 100%;
-  background-color: #0011A8;
+  background-color: $font_color_secondary5;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 100px 0;
 
   h2 {
-    font-weight: bold;
-    font-size: 45px;
-    color: #ffffff;
+    font-weight: $font-weight-bold;
+    font-size: $font_subtiles;
+    color: $white;
     margin-bottom: 100px;
   }
 
@@ -19,7 +19,7 @@
     margin: 30px;
 
     .service-card {
-      background-color: #fff;
+      background-color: $white;
       margin: 0 30px;
       padding: 15px;
       border-radius: 20px;
@@ -37,9 +37,9 @@
         }
 
         h3 {
-          color: #0011A8;
+          color: $font_color_secondary5;
           font-size: 22px;
-          font-weight: bold;
+          font-weight: $font-weight-bold;
           margin-left: 20px;
         }
       }
