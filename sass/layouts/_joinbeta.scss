@@ -4,17 +4,17 @@
     justify-content: center;
     
     .enroll {
-        font-size: 220px;
+        font-size: $font_huge;
         color: #A9C8F4;
         text-align: center;
     }
 
     .treat {
-        font-size: 43px;
-        color: #232222;
+        font-size: $font_subtiles;
+        color: $font_color_secondary3;
 
         span {
-            color: #0047BE;
+            color: $font_color_secondary7;
         }
     }
 }

@@ -19825,9 +19825,9 @@ h3 {
 }
 .header .navbar .menu a {
   text-decoration: none;
-  color: #000;
+  color: #000000;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 19px;
 }
 .header .navbar .menu .join {
   color: #0047BE;
@@ -19852,7 +19852,7 @@ h3 {
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: #ffffff;
   padding: 17px;
 }
 .header .header-footer .enroll {
@@ -19861,7 +19861,7 @@ h3 {
 .header .header-footer .free-beta {
   margin-right: 100px;
   padding: 10px 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #0940D3;
   height: 50px;
   border-radius: 10px;
@@ -25012,7 +25012,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #9fcdff;
 }
 .list-group-item-primary.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #004085;
   border-color: #004085;
 }
@@ -25026,7 +25026,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #c8cbcf;
 }
 .list-group-item-secondary.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #383d41;
   border-color: #383d41;
 }
@@ -25040,7 +25040,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #b1dfbb;
 }
 .list-group-item-success.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #155724;
   border-color: #155724;
 }
@@ -25054,7 +25054,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #abdde5;
 }
 .list-group-item-info.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #0c5460;
   border-color: #0c5460;
 }
@@ -25068,7 +25068,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #ffe8a1;
 }
 .list-group-item-warning.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #856404;
   border-color: #856404;
 }
@@ -25082,7 +25082,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f1b0b7;
 }
 .list-group-item-danger.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #721c24;
   border-color: #721c24;
 }
@@ -25096,7 +25096,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #ececf6;
 }
 .list-group-item-light.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #818182;
   border-color: #818182;
 }
@@ -25110,7 +25110,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #b9bbbe;
 }
 .list-group-item-dark.list-group-item-action.active {
-  color: #fff;
+  color: #ffffff;
   background-color: #1b1e21;
   border-color: #1b1e21;
 }
@@ -25951,7 +25951,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #ffffff !important;
 }
 
 .bg-transparent {
@@ -26031,7 +26031,7 @@ button.bg-dark:focus {
 }
 
 .border-white {
-  border-color: #fff !important;
+  border-color: #ffffff !important;
 }
 
 .rounded-sm {
@@ -29590,7 +29590,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
 .text-primary {
@@ -29765,7 +29765,7 @@ h3 {
   }
 
   .badge {
-    border: 1px solid #000;
+    border: 1px solid #000000;
   }
 
   .table {
@@ -29773,7 +29773,7 @@ h3 {
   }
   .table td,
 .table th {
-    background-color: #fff !important;
+    background-color: #ffffff !important;
   }
 
   .table-bordered th,
@@ -29804,7 +29804,7 @@ h3 {
   text-align: center;
   font-size: 25px;
   padding: 30px 0;
-  color: white;
+  color: #ffffff;
 }
 
 .section_cards {
@@ -29829,8 +29829,8 @@ h3 {
   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.062);
 }
 .section_cards .card h5 {
-  font-weight: bold;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 25px;
   color: #074A7B;
 }
 .section_cards .card p {
@@ -29838,7 +29838,7 @@ h3 {
 }
 .section_cards .card a {
   background-color: #232222;
-  color: white;
+  color: #ffffff;
   text-align: center;
   border: none;
   padding: 10px 10px;
@@ -29878,11 +29878,11 @@ h3 {
 }
 
 .grand_text {
-  font-size: 200px;
+  font-size: 220px;
   color: #A9C8F4;
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   opacity: 80%;
   padding: 0 5%;
 }
@@ -29896,8 +29896,8 @@ h3 {
   padding: 100px 0;
 }
 .service h2 {
-  font-weight: bold;
-  font-size: 45px;
+  font-weight: 700;
+  font-size: 43px;
   color: #ffffff;
   margin-bottom: 100px;
 }
@@ -29907,7 +29907,7 @@ h3 {
   margin: 30px;
 }
 .service .service-section .service-card {
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0 30px;
   padding: 15px;
   border-radius: 20px;
@@ -29926,7 +29926,7 @@ h3 {
 .service .service-section .service-card div h3 {
   color: #0011A8;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 20px;
 }
 
@@ -29956,10 +29956,10 @@ h3 {
   margin: 0 auto;
 }
 #company .user q {
-  font-size: 20px;
+  font-size: 19px;
 }
 #company .user p {
-  font-size: 14px;
+  font-size: 15px;
   color: #357fee;
 }
 

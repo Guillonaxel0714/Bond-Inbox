@@ -6,9 +6,9 @@
 
     p{
         text-align: center;
-        font-size: 25px;
+        font-size: $font_paragraphe;
         padding: 30px 0;
-        color: white;
+        color: $white;
     }
 }
 
@@ -36,16 +36,16 @@
            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.062);
         }
         h5{
-            font-weight: bold;
-            font-size: 24px;
+            font-weight: $font-weight-bold;
+            font-size: $font_paragraphe;
             color: #074A7B;
         }
         p{
-            font-size: 15px;
+            font-size: $font_vsmall_paragraphe;
         }
         a{
-            background-color: #232222;
-            color: white;
+            background-color: $font_color_secondary3;
+            color: $white;
             text-align: center;
             border: none;
             padding: 10px 10px;
