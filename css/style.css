@@ -29957,6 +29957,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   max-width: 560px;
+  margin: 0 auto;
 }
 #company .user q {
   font-size: 19px;
