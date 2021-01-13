@@ -19805,6 +19805,7 @@ h3 {
 }
 .header {
   width: 100%;
+  position: relative;
 }
 .header .navbar {
   width: 100%;
@@ -19854,6 +19855,8 @@ h3 {
   justify-content: space-between;
   color: #ffffff;
   padding: 17px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 .header .header-footer .enroll {
   margin-left: 100px;
@@ -29905,6 +29908,7 @@ h3 {
 .service .service-section {
   display: flex;
   flex-direction: row;
+  margin: 30px;
 }
 .service .service-section .service-card {
   background-color: #ffffff;
