@@ -29891,6 +29891,12 @@ h3 {
   padding: 0 5%;
 }
 
+/* Responsive */
+@media screen and (max-width: 375px) {
+  .grand_text {
+    font-size: 89px;
+  }
+}
 .service {
   width: 100%;
   background-color: #0011A8;
