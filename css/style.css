@@ -29891,10 +29891,28 @@ h3 {
   padding: 0 5%;
 }
 
-/* Responsive */
+/* Responsive format Tablette */
+@media screen and (max-width: 768px) {
+  #less-apps .grand_text {
+    font-size: 55px;
+  }
+  #less-apps .less-apps-title h2 {
+    font-size: 39px;
+  }
+  #less-apps .less-apps-title h3 {
+    font-size: 13px;
+  }
+}
+/* Responsive format téléphone  */
 @media screen and (max-width: 375px) {
-  .grand_text {
-    font-size: 89px;
+  #less-apps .grand_text {
+    font-size: 59px;
+  }
+  #less-apps h2 {
+    font-size: 25px;
+  }
+  #less-apps h3 {
+    font-size: 19px;
   }
 }
 .service {
