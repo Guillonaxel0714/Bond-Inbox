@@ -46,3 +46,30 @@
     }
   }
 }
+
+@media (max-width: 375px) {
+
+  .service {
+    width: 375px;
+
+    h2 {
+      font-weight: $font-weight-bold;
+      font-size: $font_subtiles_h3;
+      color: $white;
+      margin-bottom: 100px;
+    }
+
+    .service-section {
+      flex-direction: column;
+      
+      .service-card {
+        background-color: $white;
+        margin: 30px;
+        padding: 15px;
+        border-radius: 20px;
+        width: 250px;
+      }
+    }
+  }
+
+}

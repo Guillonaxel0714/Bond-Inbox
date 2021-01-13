@@ -29940,6 +29940,27 @@ h3 {
   margin-left: 20px;
 }
 
+@media (max-width: 375px) {
+  .service {
+    width: 375px;
+  }
+  .service h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+  .service .service-section {
+    flex-direction: column;
+  }
+  .service .service-section .service-card {
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+  }
+}
 #company {
   width: 100%;
   text-align: center;
