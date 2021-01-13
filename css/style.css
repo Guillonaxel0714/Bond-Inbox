@@ -30228,8 +30228,19 @@ article p {
   color: #8e9ae0;
 }
 
+.compose2 {
+  margin-top: -60px;
+}
+.compose2 .plan {
+  position: absolute;
+  z-index: 1;
+}
+.compose2 .plan2 {
+  position: absolute;
+  z-index: 2;
+}
 .compose2 h3 {
-  margin: 140.5px 87.9px 106.5px 0.1px;
+  margin: 0px 87.9px 106.5px 3.1px;
   -webkit-text-stroke: 4px #0011a8;
   font-family: Realist;
   font-size: 170px;

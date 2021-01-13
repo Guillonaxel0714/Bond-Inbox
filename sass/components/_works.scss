@@ -44,24 +44,43 @@
 }
 
 .compose2 {
-        h3 {
-            margin: 140.5px 87.9px 106.5px 0.1px;
-            -webkit-text-stroke: 4px #0011a8;
-            font-family: Realist;
-            font-size: 170px;
-            font-weight: 900;
-            color: transparent;
-        }
-        .gtexte2 {
-        
-            width: 578px;
-            opacity: 0.35;
-            font-family: Realist;
-            font-size: 140px;
-            font-weight: bold;
-            line-height: 1.08;
-            color: #a9c8f4;
-        }
+
+    margin-top: -60px;
+
+    .plan {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .plan2 {
+        position: absolute;
+        z-index: 2;
+    }
+
+    
+
+
+
+
+    h3 {
+        margin: 0px 87.9px 106.5px 3.1px;
+        -webkit-text-stroke: 4px #0011a8;
+        font-family: Realist;
+        font-size: 170px;
+        font-weight: 900;
+        color: transparent;
+    }
+
+    .gtexte2 {
+
+        width: 578px;
+        opacity: 0.35;
+        font-family: Realist;
+        font-size: 140px;
+        font-weight: bold;
+        line-height: 1.08;
+        color: #a9c8f4;
+    }
 }
 
 .trait2 {
