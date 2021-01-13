@@ -19805,13 +19805,16 @@ h3 {
 }
 .header {
   width: 100%;
-  position: relative;
 }
 .header .navbar {
   width: 100%;
+  background-color: #ffffff;
   box-shadow: 0 5px 10px #dee2e6;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 .header .navbar .logo {
   width: 130px;
@@ -19840,6 +19843,7 @@ h3 {
   font-size: 40px;
   margin-top: 50px;
   padding: 0 250px;
+  padding-top: 135px;
   color: #00129D;
 }
 .header .collab {
@@ -19849,14 +19853,16 @@ h3 {
   color: #0047BE;
 }
 .header .header-footer {
+  width: 100%;
   background-color: #0047BE;
   bottom: 0;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
   padding: 17px;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
 }
 .header .header-footer .enroll {
   margin-left: 100px;
