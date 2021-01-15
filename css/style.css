@@ -19805,13 +19805,16 @@ h3 {
 }
 .header {
   width: 100%;
-  position: relative;
 }
 .header .navbar {
   width: 100%;
+  background-color: #ffffff;
   box-shadow: 0 5px 10px #dee2e6;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 .header .navbar .logo {
   width: 130px;
@@ -19840,6 +19843,7 @@ h3 {
   font-size: 40px;
   margin-top: 50px;
   padding: 0 250px;
+  padding-top: 135px;
   color: #00129D;
 }
 .header .collab {
@@ -19849,14 +19853,17 @@ h3 {
   color: #0047BE;
 }
 .header .header-footer {
+  width: 100%;
+  text-align: center;
   background-color: #0047BE;
   bottom: 0;
   display: flex;
   justify-content: space-between;
   color: #ffffff;
   padding: 17px;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
 }
 .header .header-footer .enroll {
   margin-left: 100px;
@@ -29958,6 +29965,49 @@ h3 {
   margin-left: 20px;
 }
 
+@media (max-width: 375px) {
+  .service {
+    max-width: 375px;
+  }
+  .service h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+  .service .service-section {
+    flex-direction: column;
+  }
+  .service .service-section .service-card {
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .service {
+    max-width: 768px;
+  }
+  .service h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+  .service .service-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service .service-section .service-card {
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+  }
+}
 #company {
   width: 100%;
   text-align: center;
@@ -30027,6 +30077,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 150px;
+  margin-bottom: 115px;
 }
 footer .first-footer-section {
   display: flex;
@@ -30053,6 +30104,57 @@ footer .second-footer-section {
 }
 footer .second-footer-section .copyrights {
   color: #8E9AE0;
+}
+
+#slider {
+  height: 35vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+#slider [type=radio] {
+  display: none;
+}
+#slider #slider label {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+#slider #s1:checked ~ #slide4, #slider #s2:checked ~ #slide5,
+#slider #s3:checked ~ #slide1, #slider #s4:checked ~ #slide2,
+#slider #s5:checked ~ #slide3 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(-30%, 0, -200px);
+}
+#slider #s1:checked ~ #slide5, #slider #s2:checked ~ #slide1,
+#slider #s3:checked ~ #slide2, #slider #s4:checked ~ #slide3,
+#slider #s5:checked ~ #slide4 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(-15%, 0, -100px);
+}
+#slider #s1:checked ~ #slide1, #slider #s2:checked ~ #slide2,
+#slider #s3:checked ~ #slide3, #slider #s4:checked ~ #slide4,
+#slider #s5:checked ~ #slide5 {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  transform: translate3d(0, 0, 0);
+}
+#slider #s1:checked ~ #slide2, #slider #s2:checked ~ #slide3,
+#slider #s3:checked ~ #slide4, #slider #s4:checked ~ #slide5,
+#slider #s5:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  transform: translate3d(15%, 0, -100px);
+}
+#slider #s1:checked ~ #slide3, #slider #s2:checked ~ #slide4,
+#slider #s3:checked ~ #slide5, #slider #s4:checked ~ #slide1,
+#slider #s5:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+  transform: translate3d(30%, 0, -200px);
 }
 
 .glide {
@@ -30229,6 +30331,82 @@ article p {
   width: 350px;
   text-align: center;
   margin: 0 auto;
+}
+
+#works {
+  width: 100%;
+  height: 3700px;
+  background-image: url("../sass/img/workwomen.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.titre {
+  margin: 58.6px 38px 140.5px 116px;
+  font-family: Realist;
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #0011a8;
+  text-align: center;
+}
+
+.compose {
+  display: flex;
+  justify-content: space-around;
+}
+.compose div p {
+  width: 328px;
+  height: 138px;
+  margin-top: 50px;
+  font-family: Realist;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.21;
+  text-align: center;
+  color: #161616;
+}
+.compose div a {
+  font-weight: bold;
+  color: #8e9ae0;
+}
+
+.compose2 {
+  margin-top: -60px;
+}
+.compose2 .plan {
+  position: absolute;
+  z-index: 1;
+}
+.compose2 .plan2 {
+  position: absolute;
+  z-index: 2;
+}
+.compose2 h3 {
+  margin: 0px 87.9px 106.5px 3.1px;
+  -webkit-text-stroke: 4px #0011a8;
+  font-family: Realist;
+  font-size: 170px;
+  font-weight: 900;
+  color: transparent;
+}
+.compose2 .gtexte2 {
+  width: 578px;
+  font-family: Realist;
+  font-size: 140px;
+  font-weight: bold;
+  line-height: 1.08;
+  color: #0047BE;
+}
+
+.trait2 {
+  width: 1424px;
+  height: 5px;
+  margin: 52px 248px 24.5px 304px;
+  opacity: 0.35;
+  background-color: #a9c8f4;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,13 +3,16 @@
 
 .header {
     width: 100%;
-    position: relative;
 
     .navbar {
         width: 100%;
+        background-color: $white;
         box-shadow: 0 5px 10px $gray-300;
         display: flex;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        z-index: 10;
 
         .logo {
             width: 130px;
@@ -43,6 +46,7 @@
         font-size: 40px;
         margin-top: 50px;
         padding: 0 250px;
+        padding-top: 135px;
         color: $darkerBlue;
     }
 
@@ -55,14 +59,18 @@
     }
 
     .header-footer {
+        width: 100%;
+        text-align: center;
+       
         background-color: $darkBlue;
         bottom: 0;
         display: flex;
         justify-content: space-between;
         color: $white;
         padding: 17px;
-        position: -webkit-sticky;
-        position: sticky;
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
 
         .enroll {
             margin-left: 100px;
