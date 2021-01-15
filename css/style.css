@@ -19854,6 +19854,7 @@ h3 {
 }
 .header .header-footer {
   width: 100%;
+  text-align: center;
   background-color: #0047BE;
   bottom: 0;
   display: flex;
@@ -30239,6 +30240,82 @@ article p {
   width: 350px;
   text-align: center;
   margin: 0 auto;
+}
+
+#works {
+  width: 100%;
+  height: 3700px;
+  background-image: url("../sass/img/workwomen.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.titre {
+  margin: 58.6px 38px 140.5px 116px;
+  font-family: Realist;
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #0011a8;
+  text-align: center;
+}
+
+.compose {
+  display: flex;
+  justify-content: space-around;
+}
+.compose div p {
+  width: 328px;
+  height: 138px;
+  margin-top: 50px;
+  font-family: Realist;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.21;
+  text-align: center;
+  color: #161616;
+}
+.compose div a {
+  font-weight: bold;
+  color: #8e9ae0;
+}
+
+.compose2 {
+  margin-top: -60px;
+}
+.compose2 .plan {
+  position: absolute;
+  z-index: 1;
+}
+.compose2 .plan2 {
+  position: absolute;
+  z-index: 2;
+}
+.compose2 h3 {
+  margin: 0px 87.9px 106.5px 3.1px;
+  -webkit-text-stroke: 4px #0011a8;
+  font-family: Realist;
+  font-size: 170px;
+  font-weight: 900;
+  color: transparent;
+}
+.compose2 .gtexte2 {
+  width: 578px;
+  font-family: Realist;
+  font-size: 140px;
+  font-weight: bold;
+  line-height: 1.08;
+  color: #0047BE;
+}
+
+.trait2 {
+  width: 1424px;
+  height: 5px;
+  margin: 52px 248px 24.5px 304px;
+  opacity: 0.35;
+  background-color: #a9c8f4;
 }
 
 /*# sourceMappingURL=style.css.map */
