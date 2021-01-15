@@ -2,20 +2,24 @@
     width: 100%;
     text-align: center;
     padding: 100px 0 200px;
+
     h2 {
         font-family: $font-family-realist;
         font-size: $font_big_title;
         font-weight: $font-weight-bold;
     }
+
     h3 {
         font-family: $font-family-realist;
         font-size: $font_paragraphe;
         font-weight: $font-weight-light;
         text-align: center;
     }
+
     .logos {
         margin-top: 50px;
     }
+
     img {
         width: 100px;
         height: 80px;
@@ -25,7 +29,7 @@
 
 }
 
-.grand_text{
+.grand_text {
     font-size: $font_huge;
     color: $font_color_secondary8;
     text-align: center;
@@ -35,11 +39,51 @@
     padding: 0 5%;
 }
 
-/* Responsive */ 
+/* Responsive format Tablette */
 
-@media screen and (max-width: 375px) 
-{
-    .grand_text {
-        font-size: 89px; 
+@media screen and (max-width: 768px) {
+    #less-apps {
+
+        .grand_text {
+            font-size: 55px;
+        }
+
+        .less-apps-title {
+
+           
+
+            h2 {
+                font-size: 39px;
+            }
+
+            h3 {
+                font-size: 13px;
+
+            }
+        }
+
+
     }
+}
+
+/* Responsive format téléphone  */
+
+@media screen and (max-width: 375px) {
+
+    #less-apps {
+
+
+        .grand_text {
+            font-size: 59px;
+        }
+
+        h2 {
+            font-size: 25px;
+        }
+
+        h3 {
+            font-size: 19px;
+        }
+    }
+
 }
