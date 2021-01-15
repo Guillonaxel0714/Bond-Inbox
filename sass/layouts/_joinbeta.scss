@@ -18,3 +18,37 @@
         }
     }
 }
+
+/* Responsive Tablette */
+
+@media screen and (max-width: 768px)
+{
+    .beta {
+        .enroll{
+            font-size: 49px;
+            margin-top: 30px;
+        }
+        .treat {
+            margin-top: 60px;
+            font-size: 18px;
+        }
+    }
+}
+
+/* responsive Téléphone */ 
+
+@media screen and (max-width: 375px)  
+
+{
+    .beta {
+        .enroll {
+            font-size: 69px;
+            margin-top: 35px;
+        }
+        .treat {
+            margin-top: 50px;
+            font-size: 25px;
+        }
+    }
+}
+
