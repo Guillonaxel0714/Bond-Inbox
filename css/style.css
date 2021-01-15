@@ -29949,7 +29949,7 @@ h3 {
 
 @media (max-width: 375px) {
   .service {
-    width: 375px;
+    max-width: 375px;
   }
   .service h2 {
     font-weight: 700;
@@ -29959,6 +29959,28 @@ h3 {
   }
   .service .service-section {
     flex-direction: column;
+  }
+  .service .service-section .service-card {
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .service {
+    max-width: 768px;
+  }
+  .service h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+  .service .service-section {
+    flex-direction: column;
+    align-items: center;
   }
   .service .service-section .service-card {
     background-color: #ffffff;
@@ -30296,7 +30318,7 @@ article p {
 #works {
   width: 100%;
   height: 3700px;
-  background-image: url("../img/works.png");
+  background-image: url("../sass/img/workwomen.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
