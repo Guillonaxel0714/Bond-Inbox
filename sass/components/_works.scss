@@ -1,11 +1,11 @@
 #works {
     width: 100%;
     height: 3700px;
-    background-image: url('../img/works.png');
+    background-image: url('../sass/img/workwomen.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    z-index: 1;
 }
 
 .titre {
@@ -74,12 +74,12 @@
     .gtexte2 {
 
         width: 578px;
-        opacity: 0.35;
+        // opacity: 0.35;
         font-family: Realist;
         font-size: 140px;
         font-weight: bold;
         line-height: 1.08;
-        color: #a9c8f4;
+        color: $font_color_secondary7;
     }
 }
 
