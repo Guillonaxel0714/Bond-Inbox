@@ -30245,7 +30245,7 @@ article p {
 #works {
   width: 100%;
   height: 3700px;
-  background-image: url("../img/works.png");
+  background-image: url("../sass/img/workwomen.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
