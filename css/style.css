@@ -19817,9 +19817,10 @@ h3 {
   z-index: 10;
 }
 .header .navbar .logo {
-  width: 130px;
-  height: 130px;
+  width: 60px;
+  height: 80px;
   margin-left: 100px;
+  padding: 20px 0;
 }
 .header .navbar .menu {
   width: 35%;
@@ -29837,6 +29838,9 @@ h3 {
 .section_cards .card .card-body {
   width: 100%;
   box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.062);
+}
+.section_cards .card .card-body a {
+  cursor: pointer;
 }
 .section_cards .card h5 {
   font-weight: 700;

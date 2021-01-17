@@ -36,6 +36,10 @@
         .card-body{
            width: 100%;
            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.062);
+
+           a {
+               cursor: pointer;
+           }
            
         }
         h5{
