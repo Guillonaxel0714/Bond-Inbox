@@ -30088,7 +30088,7 @@ h3 {
 }
 /* responsive Téléphone */
 @media screen and (max-width: 375px) {
-  .beta .enroll {
+  .beta .grand_text {
     font-size: 69px;
     margin-top: 35px;
   }
